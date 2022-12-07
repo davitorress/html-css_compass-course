@@ -149,6 +149,62 @@
 					</dl>
 				</address>
 			</section>
+
+			<section>
+				<h2>Contact Me</h2>
+
+				<form action="index.html" method="get">
+					<p>
+						<label for="name">Name</label>
+						<input type="text" name="name" id="name" required />
+					</p>
+
+					<p>
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email" />
+					</p>
+
+					<p>
+						<label for="whycontacting">Why Contacting</label>
+						<select name="whycontacting" id="whycontacting">
+							<option value="testimonial">Testimonial</option>
+							<option value="jobinterview">Job Interview</option>
+						</select>
+					</p>
+
+					<p>
+						<label for="message">Message</label>
+						<br />
+						<textarea name="message" id="message" rows="3"></textarea>
+					</p>
+
+					<fieldset>
+						<legend>Best Contact Time</legend>
+
+						<p>
+							<label for="contacttime1">Morning</label>
+							<input type="radio" name="contacttime" id="contacttime1" value="morning" />
+						</p>
+						<p>
+							<label for="contacttime2">Afternoon</label>
+							<input type="radio" name="contacttime" id="contacttime2" value="afternoon" />
+						</p>
+						<p>
+							<label for="contacttime3">Evening</label>
+							<input type="radio" name="contacttime" id="contacttime3" value="evening" />
+						</p>
+
+						<p>
+							<label for="asap">ASAP</label>
+							<input type="checkbox" name="asap" id="asap" />
+						</p>
+					</fieldset>
+
+					<p>
+						<button type="submit">Send</button>
+					</p>
+				</form>
+			</section>
 		</main>
 	</body>
 </html>
