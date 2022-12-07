@@ -57,3 +57,8 @@ a:visited {
 input:focus, select:focus, textarea:focus {
 	outline: 2px solid #1598b9;
 }
+
+/* Negation pseudo-classes */
+section:not(#skills) {
+	font-style: italic;
+}
