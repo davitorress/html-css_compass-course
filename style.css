@@ -37,3 +37,8 @@ section#skills {
 h2 + blockquote {
 	font-size: 2px;
 }
+
+/* Subsequent combinator */
+header ~ aside {
+	font-weight: bold;
+}
