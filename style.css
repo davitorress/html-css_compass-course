@@ -1,3 +1,9 @@
+/* Universal selector */
 * {
-	color: #6acf97;
+	color: #15b95f;
+}
+
+/* Type selector */
+ol {
+	font-style: italic;
 }
