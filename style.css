@@ -32,3 +32,8 @@ section#skills {
 #about > aside > small {
 	font-style: italic;
 }
+
+/* Next-sibling combinator */
+h2 + blockquote {
+	font-size: 2px;
+}
