@@ -12,3 +12,8 @@ ol {
 a[href] {
 	color: #b915ab;
 }
+
+/* ID selector */
+section#skills {
+	font-weight: bold;
+}
