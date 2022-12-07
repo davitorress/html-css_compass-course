@@ -7,3 +7,8 @@
 ol {
 	font-style: italic;
 }
+
+/* Attribute selector */
+a[href] {
+	color: #b915ab;
+}
