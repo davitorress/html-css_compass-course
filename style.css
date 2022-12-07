@@ -62,3 +62,8 @@ input:focus, select:focus, textarea:focus {
 section:not(#skills) {
 	font-style: italic;
 }
+
+/* Pseudo-elements */
+p::first-letter {
+	font-weight: bold;
+}
