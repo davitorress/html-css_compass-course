@@ -22,3 +22,8 @@ section#skills {
 .resume-list {
 	text-transform: lowercase;
 }
+
+/* Grouping selector */
+#about, #specialties {
+	font-family: 'Courier New', Courier, monospace;
+}
