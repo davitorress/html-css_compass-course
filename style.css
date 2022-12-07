@@ -17,3 +17,8 @@ a[href] {
 section#skills {
 	font-weight: bold;
 }
+
+/* Class selector */
+.resume-list {
+	text-transform: lowercase;
+}
