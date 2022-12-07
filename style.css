@@ -47,3 +47,8 @@ header ~ aside {
 #specialties li:nth-child(2n+2) {
 	font-weight: bold;
 }
+
+/* User action pseudo-classes */
+a:visited {
+	color: #b6b915;
+}
