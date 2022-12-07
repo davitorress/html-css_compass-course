@@ -27,3 +27,8 @@ section#skills {
 #about, #specialties {
 	font-family: 'Courier New', Courier, monospace;
 }
+
+/* Child combinator */
+#about > aside > small {
+	font-style: italic;
+}
