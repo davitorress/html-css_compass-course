@@ -42,3 +42,8 @@ h2 + blockquote {
 header ~ aside {
 	font-weight: bold;
 }
+
+/* Child-indexed pseudo-classes */
+#specialties li:nth-child(2n+2) {
+	font-weight: bold;
+}
