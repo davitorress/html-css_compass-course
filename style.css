@@ -52,3 +52,8 @@ header ~ aside {
 a:visited {
 	color: #b6b915;
 }
+
+/* Input pseudo-classes */
+input:focus, select:focus, textarea:focus {
+	outline: 2px solid #1598b9;
+}
