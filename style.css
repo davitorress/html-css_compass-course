@@ -92,3 +92,8 @@ header {
 	padding: 20px;
 	background-color: #1598b9;
 }
+
+/* Images */
+#portfolio img {
+	width: 300px;
+}
