@@ -113,3 +113,12 @@ header nav ul li {
 	display: inline;
 	margin: 0 .25rem;
 }
+
+/* Flex formatting content */
+header nav ul {
+	display: flex;
+}
+
+header nav ul li {
+	list-style: none;
+}
