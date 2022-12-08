@@ -72,9 +72,10 @@ p::first-letter {
 }
 
 /* Box position */
-header {
+body > header {
 	position: sticky;
 	top: 15px;
+	background-color: #fff;
 }
 
 /* Visibility */
@@ -90,10 +91,25 @@ header {
 	top: 0;
 
 	padding: 20px;
-	background-color: #1598b9;
+	background-color: #fff;
 }
 
 /* Images */
 #portfolio img {
 	width: 300px;
+}
+
+/* Display */
+.label-standard {
+	display: block;
+	margin: 0.125rem;
+}
+
+.field {
+	margin-bottom: 1.25rem;
+}
+
+header nav ul li {
+	display: inline;
+	margin: 0 .25rem;
 }
