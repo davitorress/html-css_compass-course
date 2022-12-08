@@ -1,6 +1,9 @@
 /* Universal selector */
 * {
 	color: #15b95f;
+
+	/* Box model */
+	box-sizing: border-box;
 }
 
 /* Type selector */
