@@ -76,3 +76,8 @@ header {
 	position: sticky;
 	top: 15px;
 }
+
+/* Visibility */
+#skills .resume-list li:nth-child(even) {
+	visibility: hidden;
+}
