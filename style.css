@@ -81,3 +81,14 @@ header {
 #skills .resume-list li:nth-child(even) {
 	visibility: hidden;
 }
+
+/* Z-index */
+#specialties ul li:first-of-type {
+	z-index: 1;
+
+	position: absolute;
+	top: 0;
+
+	padding: 20px;
+	background-color: #1598b9;
+}
