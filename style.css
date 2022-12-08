@@ -70,3 +70,9 @@ section:not(#skills) {
 p::first-letter {
 	font-weight: bold;
 }
+
+/* Box position */
+header {
+	position: sticky;
+	top: 15px;
+}
