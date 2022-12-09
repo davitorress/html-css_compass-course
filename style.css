@@ -122,3 +122,31 @@ header nav ul {
 header nav ul li {
 	list-style: none;
 }
+
+/* Grid formatting context */
+body {
+	display: grid;
+}
+
+#portfolio {
+	display: grid;
+	/* grid-template-columns: 1fr 1fr minmax(150px, 1fr);
+	grid-template-rows: repeat(2, 1fr); */
+	grid-template: repeat(2, 200px) / repeat(3, 1fr);
+	grid-template-areas:	"portfolio img1 img2"
+												"portfolio im3 img4";
+	grid-gap: 10px;
+	block-size: 600px;
+	align-items: center;
+	justify-items: center;
+	align-content: space-evenly;
+}
+
+#portfolio h2 {
+	grid-area: portfolio;
+	align-self: flex-start;
+}
+
+#portfolio img {
+	max-inline-size: 300px;
+}
