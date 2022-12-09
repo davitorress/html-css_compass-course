@@ -1,6 +1,8 @@
 # Understanding HTML and CSS - Udemy Compass.uol
 Semantic and good habits for HTML and CSS
 
+Obs: Repository to monitor and consult the content passed in the course.
+
 ## Sections
 - [x] Introduction
 - [x] Trees
@@ -13,15 +15,15 @@ Semantic and good habits for HTML and CSS
 - [x] Accessibility
 - [x] Interactivity
 - [x] JavaScript Frameworks
-- [ ] Stylesheets and Querying Trees
-- [ ] Box Model
-- [ ] Box Position
-- [ ] Painting and Images
-- [ ] Flow
-- [ ] Flexbox
-- [ ] Grid
-- [ ] Fonts, Colors and More
-- [ ] Responsiveness and Querying Media
-- [ ] Saving Time and Effort
-- [ ] CSS Frameworks
-- [ ] Conclusion
+- [x] Stylesheets and Querying Trees
+- [x] Box Model
+- [x] Box Position
+- [x] Painting and Images
+- [x] Flow
+- [x] Flexbox
+- [x] Grid
+- [x] Fonts, Colors and More
+- [x] Responsiveness and Querying Media
+- [x] Saving Time and Effort
+- [x] CSS Frameworks
+- [x] Conclusion
