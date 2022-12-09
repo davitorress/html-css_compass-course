@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Resume of Davi Torres</title>
+
+		<link rel="stylesheet" href="style.css" />
 	</head>
 
 	<body>
@@ -62,7 +64,7 @@
 			<section id="specialties">
 				<h2>Specialties</h2>
 
-				<ul>
+				<ul class="resume-list">
 					<li>Front-end Development</li>
 
 					<li>Back-end Development</li>
@@ -74,7 +76,7 @@
 			<section id="skills">
 				<h2>Skills</h2>
 
-				<ul>
+				<ul class="resume-list">
 					<li>
 						<h3>HTML5</h3>
 						<p>Markup the content with semantic HTML.</p>
@@ -105,7 +107,7 @@
 			<section id="workhistory">
 				<h2>Work History</h2>
 
-				<ol>
+				<ol class="resume-list">
 					<li>
 						<h3>Front-end intern</h3>
 						<p>Compass.uol</p>
@@ -114,15 +116,22 @@
 				</ol>
 			</section>
 
-			<!-- Need to insert photos of my projects -->
 			<section id="portfolio">
 				<h2>Portfolio</h2>
+				<img src="https://picsum.photos/400/200" alt="A random image for demonstrative purposes.">
+				<img src="https://picsum.photos/400/200" alt="A random image for demonstrative purposes.">
+				<img src="https://picsum.photos/400/200" alt="A random image for demonstrative purposes.">
+				<img src="https://picsum.photos/400/200" alt="A random image for demonstrative purposes.">
 			</section>
 
 			<!-- Need to ask for real testimonials from my teachers -->
 			<section id="testimonials">
 				<h2>Testimonials</h2>
 
+				<blockquote>
+					<p>A very dedicated student with <strong>excellent results!</strong></p>
+				</blockquote>
+				
 				<blockquote>
 					<p>A very dedicated student with <strong>excellent results!</strong></p>
 				</blockquote>
@@ -154,26 +163,26 @@
 				<h2>Contact Me</h2>
 
 				<form action="index.html" method="get">
-					<p>
-						<label for="name">Name</label>
+					<p class="field">
+						<label for="name" class="label-standard">Name</label>
 						<input type="text" name="name" id="name" required />
 					</p>
 
-					<p>
-						<label for="email">Email</label>
+					<p class="field">
+						<label for="email" class="label-standard">Email</label>
 						<input type="email" name="email" id="email" />
 					</p>
 
-					<p>
-						<label for="whycontacting">Why Contacting</label>
+					<p class="field">
+						<label for="whycontacting" class="label-standard">Why Contacting</label>
 						<select name="whycontacting" id="whycontacting">
 							<option value="testimonial">Testimonial</option>
 							<option value="jobinterview">Job Interview</option>
 						</select>
 					</p>
 
-					<p>
-						<label for="message">Message</label>
+					<p class="field">
+						<label for="message" class="label-standard">Message</label>
 						<br />
 						<textarea name="message" id="message" rows="3"></textarea>
 					</p>

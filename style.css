@@ -1,0 +1,152 @@
+/* Universal selector */
+* {
+	color: #15b95f;
+
+	/* Box model */
+	box-sizing: border-box;
+}
+
+/* Type selector */
+ol {
+	font-style: italic;
+}
+
+/* Attribute selector */
+a[href] {
+	color: #b915ab;
+}
+
+/* ID selector */
+section#skills {
+	font-weight: bold;
+}
+
+/* Class selector */
+.resume-list {
+	text-transform: lowercase;
+}
+
+/* Grouping selector */
+#about, #specialties {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+/* Child combinator */
+#about > aside > small {
+	font-style: italic;
+}
+
+/* Next-sibling combinator */
+h2 + blockquote {
+	font-size: 2px;
+}
+
+/* Subsequent combinator */
+header ~ aside {
+	font-weight: bold;
+}
+
+/* Child-indexed pseudo-classes */
+#specialties li:nth-child(2n+2) {
+	font-weight: bold;
+}
+
+/* User action pseudo-classes */
+a:visited {
+	color: #b6b915;
+}
+
+/* Input pseudo-classes */
+input:focus, select:focus, textarea:focus {
+	outline: 2px solid #1598b9;
+}
+
+/* Negation pseudo-classes */
+section:not(#skills) {
+	font-style: italic;
+}
+
+/* Pseudo-elements */
+p::first-letter {
+	font-weight: bold;
+}
+
+/* Box position */
+body > header {
+	position: sticky;
+	top: 15px;
+	background-color: #fff;
+}
+
+/* Visibility */
+#skills .resume-list li:nth-child(even) {
+	visibility: hidden;
+}
+
+/* Z-index */
+#specialties ul li:first-of-type {
+	z-index: 1;
+
+	position: absolute;
+	top: 0;
+
+	padding: 20px;
+	background-color: #fff;
+}
+
+/* Images */
+#portfolio img {
+	width: 300px;
+}
+
+/* Display */
+.label-standard {
+	display: block;
+	margin: 0.125rem;
+}
+
+.field {
+	margin-bottom: 1.25rem;
+}
+
+header nav ul li {
+	display: inline;
+	margin: 0 .25rem;
+}
+
+/* Flex formatting content */
+header nav ul {
+	display: flex;
+}
+
+header nav ul li {
+	list-style: none;
+}
+
+/* Grid formatting context */
+body {
+	display: grid;
+}
+
+#portfolio {
+	display: grid;
+	/* grid-template-columns: 1fr 1fr minmax(150px, 1fr);
+	grid-template-rows: repeat(2, 1fr); */
+	grid-template: repeat(2, 200px) / repeat(3, 1fr);
+	grid-template-areas:	"portfolio img1 img2"
+												"portfolio im3 img4";
+	grid-gap: 10px;
+	block-size: 600px;
+	align-items: center;
+	justify-items: center;
+	align-content: space-evenly;
+}
+
+#portfolio h2 {
+	grid-area: portfolio;
+	align-self: flex-start;
+}
+
+#portfolio img {
+	max-inline-size: 300px;
+}
